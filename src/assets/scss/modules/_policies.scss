@@ -1,0 +1,117 @@
+.policies_forms_container {
+
+  h2 {
+    margin-bottom: 0;
+    padding-bottom: 1em;
+  }
+  .policies_container {
+    @include breakpoint(large){
+      padding-right: 30px;
+    }
+  }
+  .masonry { /* Masonry container */
+      column-count: 1;
+      column-gap: 30px;
+
+      @include breakpoint(medium){
+        column-count: 1;
+      }
+
+      @include breakpoint(large){
+        column-count: 2;
+      }
+
+      .item { /* Masonry bricks or child elements */
+          background-color: #fff;
+          display: inline-block;
+          margin: 0.5em 0;
+          width: 100%;
+          text-align: center;
+          box-shadow: 0 0 15px rgba(#000,0.2);
+          // padding-bottom: 1em;
+
+
+          img {
+            width: auto;
+            max-height: 85px;
+            margin: 30px auto;
+            display: block;
+          }
+
+          ul {
+            text-align: left;
+            width: 90%;
+            max-width: 200px;
+            margin: auto;
+            margin-bottom: 30px;
+            list-style: none;
+            backface-visibility: hidden; /* fix for chrome bug with column-count */
+          }
+
+          li {
+            position: relative;
+            font-size: 14px;
+            // min-height: 45px;
+            display: table;
+            vertical-align: top;
+            padding-bottom: 10px !important;
+
+            svg {
+              position: relative;
+              // float: left;
+              display: table-cell;
+              margin-right: 15px;
+              width: 30px;
+              // top: 0;
+              // left: 0;
+              // transform: translateX(-100%);
+              // float: left;
+            }
+
+            p {
+              vertical-align: top;
+              margin: 0;
+              padding: 0 0 10px;
+              position: relative;
+              display: table-cell;
+              line-height: 1.1em;
+            }
+
+            a.policy-link {
+              color: $darkGrey;
+            }
+
+
+          }
+      }
+  }
+  .instructional_container {
+    h2 {
+        margin-top: 30px;
+      @include breakpoint(large){
+        margin-top: 0;
+      }
+    }
+  .masonry {
+      column-count: 1;
+      .item {
+        padding: 30px 20px 10px;
+        text-align: left;
+        a {
+          cursor: pointer;
+        }
+        a:hover {
+          img {
+            opacity: 0.9;
+          }
+        }
+        img {
+          max-height: 100%;
+          margin: 0;
+          width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  } 
+}

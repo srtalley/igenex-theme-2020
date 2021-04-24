@@ -1,0 +1,47 @@
+section.tick_talk_resource {
+  .date {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 20px auto 10px;
+  }
+  h2 {
+    padding-bottom: 0;
+    margin-bottom: 1em;
+  }
+  h3 {
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+    color: $darkNavy;
+    a {
+      color: inherit;
+    }
+  }
+  figure {
+    img {
+      width: 100%;
+      height: auto;
+    }
+    margin-bottom: 50px;
+  }
+  a.learnmore {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+
+    &:after {
+      content: url('/assets/img/static/arrow-right.svg');
+      position: absolute;
+      transform: translateX(120%);
+      right: 0;
+      top: 5px;
+      padding: 5px;
+      line-height: 0;
+      background-color: $brightBlue;
+      text-align: center;
+      border-radius: 8px;
+    }
+  }
+
+}

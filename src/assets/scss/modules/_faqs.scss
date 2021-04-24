@@ -1,0 +1,170 @@
+section.faqs,
+div.faqs {
+
+  .accordion {
+    margin-bottom: 40px;
+  }
+
+  a.button {
+    color: white;
+  }
+
+  .accordion-title {
+    min-height: 60px;
+    font-size: 14px;
+    padding: 20px 60px 20px 1rem;
+    @include breakpoint(large){
+      font-size: 20px;
+    }
+  }
+  .accordion-content {
+    color: $darkGrey;
+  }
+
+  .accordion-title:hover, .accordion-title:focus {
+    background-color: rgba(#B6BDC1,0.1);
+  }
+
+  .accordion-title::before {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    top: 50%;
+    transform: translateY(-6px);
+  }
+  &.patient {
+    .accordion-title {
+      color: $brightBlue !important;
+    }
+    .accordion-title::before {
+        background-color: $brightBlue;
+    }
+  }
+  &.physician {
+    .accordion-title::before {
+        background-color: $brightBlue;
+    }
+  }
+}
+.elementor-faq-block {
+  .grid-container {max-width: 1280px !important;}
+  section.faqs {
+    .grid-container {
+      padding: 0;
+      ul.accordion {
+        overflow: hidden;
+        @media (min-width: 768px) {
+          column-count: 2;
+          column-gap: 60px;
+        }
+        .accordion-item > :first-child {
+          border: none;
+        }
+        .accordion-column-break {
+          break-after: column;
+        }
+        li.accordion-item {
+
+          border: 10px solid transparent;
+            margin-bottom: 5px; 
+            margin-top: 5px;
+            border: 1px solid #E5E5E4;
+            border-radius: 10px;
+            box-shadow: 1px 1px 9px 2px rgba(0, 0, 0, 0.06);
+            overflow: hidden;
+            background-color: #fff;
+            .accordion-title {
+              border: none;
+              padding: 20px 80px 20px 35px;
+              color: #727272 !important;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              min-height: 100px;
+              line-height: 1.4em;
+              font-size: 20px;
+              transition: all 0.4s ease-out;
+              @include breakpoint(medium){
+                font-size: 20px;
+              }
+              &:before {
+                content: '\f107';
+                font-family: 'FontAwesome';
+                background-color: #fff;
+                border: 1px solid #f1f1f1;
+                color: #b2b2b2;
+                right: 30px;
+                font-size: 26px;
+                transition: all 0.4s ease-out;
+              }
+            &:focus {
+              background-color: rgba(0,0,0,0);
+            }
+            &:hover {
+                background-color: #00adef;
+                color: #fff !important;
+                &:before {
+                  background-color: #00adef;
+                  border: 1px solid #FFF;
+                  color: #FFF;
+                }
+              }
+            }
+            &.is-active {
+              background-color: #00adef;
+              .accordion-title {
+                color: #fff !important;
+                background-color: #00adef;
+                &:before {
+                  content: '\f106';
+                  background-color: #00adef;
+                  border: 1px solid #FFF;
+                  color: #FFF;
+                  line-height: 27px;
+                }
+                &:after{
+                  content: '';
+                  position: absolute;
+                  color: #FFF !important;
+                  width: calc(100% - 70px);
+                  display: block;
+                  visibility: visible;
+                  bottom: 0;
+                  height: 1px;
+                  z-index: 9999999;
+                  border-top: 1px solid #86d0ff;
+                }
+              }
+            }
+            .accordion-content {
+              color: #fff;
+              background-color: #00adef;
+              border:none;
+              padding: 25px 35px 35px;
+              position: relative;
+              p, li, ul, ol {
+                font-size: 20px;
+                line-height: 1.4em;
+              }
+              p:last-child {
+                margin-bottom: 0;
+              }
+              a {
+                color: #fff;
+                box-shadow: 0px 2px 0px 0px #FFF;
+                transition: all 0.4s ease-in-out;
+                &:hover{
+                  box-shadow: 0px 8px 0px 0px #FFF;
+                }
+              }
+            }
+          
+        }
+      }
+    }
+  }
+}

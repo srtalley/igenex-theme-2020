@@ -1,0 +1,198 @@
+section.kit-table {
+  border: 0;
+
+  h2 {
+    padding-bottom: 1em;
+  }
+
+  ul.accordion {
+    border: 0;
+  }
+  .accordion-title {
+    background-color: $grey;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: 0;
+    position: relative;
+    padding-left: 60px;
+    display: block;
+
+    &:before {
+      left: 15px;
+      background-color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      color: $darkNavy;
+      position: absolute;
+      // padding: 10px;
+      top: 20px;
+      line-height: 26px;
+      text-align: center;
+      font-size: 18px;
+    }
+  }
+
+  .accordion-item {
+    position: relative;
+    border: 0;
+    border-bottom: 3px solid white;
+  }
+
+  .accordion-content {
+    padding: 0;
+    border: 0;
+    &:last-child {
+      border: none;
+    }
+
+  }
+
+  .more-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    line-height: 53px;
+    padding: 0 2em;
+
+    a {
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+    }
+  }
+
+  table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    border-collapse: separate;
+
+    tbody {
+      border: 0;
+      background-color: transparent;
+    }
+
+    &.bottom {
+      // border-spacing: 4px;
+      // border-collapse: separate;
+      margin-top: -4px;
+
+      tr {
+        background-color: $lightBlue;
+        height: 30px;
+
+        @include breakpoint(medium){
+          height: 50px;
+        }
+
+        &.top-level {
+          background-color: white;
+          padding-left: 0;
+
+          td {
+            white-space: nowrap;
+
+            @include breakpoint(medium){
+              text-indent: 60px;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+
+      td {
+        text-indent: 10px;
+        padding: 0;
+        font-size: 10px;
+        margin: 5px;
+
+        @include breakpoint(medium){
+          text-indent: 80px;
+          font-size: 14px;
+        }
+
+        &:last-child {
+          border-right: none;
+        }
+
+        &.check {
+          font-size: 18px;
+          text-indent: 0 !important;
+          font-weight: normal !important;
+          @include breakpoint(medium){
+            font-size: 25px;
+          }
+
+        }
+
+        &.blood {
+          color: $red;
+        }
+
+        &.urine {
+          color: $sunflower;
+        }
+
+        &.misc {
+          color: $purple;
+        }
+      }
+
+      .check {
+        text-align: center;
+        width: 16%;
+      }
+    }
+
+    &.top {
+      background-color: transparent;
+      td {
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 10px 0;
+        background-color: transparent;
+        margin: 4px;
+        @include breakpoint(medium){
+          font-size: 18px;
+          padding: 20px 0;
+        }
+        @include breakpoint(large){
+          font-size: 24px;
+          padding: 30px 0;
+        }
+        &:last-child {
+          border-right: none;
+        }
+      }
+      td.panel {
+        background-color: $darkNavy;
+        text-indent: 20px;
+      }
+
+      td.blood {
+        background-color: $red;
+        width: 16%;
+        text-align: center;
+      }
+      td.urine {
+        background-color: $sunflower;
+        width: 16%;
+        text-align: center;
+      }
+      td.misc {
+        background-color: $purple;
+        width: 16%;
+        text-align: center;
+      }
+    }
+
+
+  }
+
+
+}

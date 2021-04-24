@@ -1,0 +1,106 @@
+.icon-grid {
+  text-align: center;
+
+  h2 {
+    font-family: "Montserrat", "helvetica neue", helvetica, arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-align: left;
+  }
+  a.button {
+    color: white;
+  }
+
+  ul {
+    font-size: 14px;
+    text-align: left;
+
+  }
+
+  img {
+    margin: auto;
+    margin-bottom: 20px;
+    max-height: 80px;
+    width: auto;
+  }
+  p {
+    font-size: 14px;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .grid-pod {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .icon-container {
+    img {
+      width: auto;
+      height: 80px;
+    }
+  }
+}
+
+section.icon-grid {
+
+  a.button {
+    margin-top: 20px;
+  }
+
+  .pod {
+    text-align: center;
+    padding-bottom: 30px;
+    img {
+      display: block;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      color: $darkNavy;
+      min-height: 2.5em;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      max-width: 275px;
+    }
+
+    p {
+      margin: 0 auto;
+      font-size: 14px;
+      max-width: 300px;
+
+    }
+
+    .details {
+      margin-top: 0;
+      font-size: 12px;
+      // font-style: italic;
+      a {
+        font-size: 15px;
+        font-weight: bold;
+        font-style: normal;
+        margin-bottom: 10px;
+        display: inline-block;
+      }
+    }
+  }
+
+  &.patient {
+    a {
+      color: $brightBlue;
+    }
+    a.button {
+      color: white;
+    }
+  }
+
+  &.physician {
+    a {
+      color: $brightBlue;
+    }
+    a.button {
+      color: white;
+    }
+  }
+}

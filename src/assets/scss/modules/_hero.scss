@@ -1,0 +1,135 @@
+div.hero {
+  background-repeat: no-repeat !important;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  @include breakpoint(medium){
+    text-align: left;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 5;
+    display: block;
+    color: white;
+
+
+    @include breakpoint(medium){
+      display: inline-block;
+      padding-left: 30px;
+    }
+
+    &.patient {
+      &:before {
+        content: '';
+        position: absolute;
+        right: -30px;
+        top: 0;
+        height: 800px;
+        width: 3000px;
+        background-color: rgba($brightBlue,0.8);
+        transform: translateY(-50%);
+        z-index: 0;
+      }
+    }
+    &.physician {
+      &:before {
+        content: '';
+        position: absolute;
+        right: -30px;
+        top: 0;
+        height: 800px;
+        width: 3000px;
+        background-color: rgba($brightBlue,0.8);
+        transform: translateY(-50%);
+        z-index: 0;
+      }
+    }
+
+  }
+
+  h1 {
+    max-width: 500px;
+    font-size: 24px;
+    margin: 0.5em auto 0;
+    padding: 0 0 30px 0;
+    position: relative;
+    z-index: 5;
+    color: white;
+    @include breakpoint(medium){
+      font-size: 36px;
+      margin-left: 0;
+    }
+    @include breakpoint(large){
+      font-size: 42px;
+    }
+    @include breakpoint(xlarge){
+      font-size: 48px;
+    }
+  }
+
+  &.patient {
+
+    a.button {
+      background-color: $darkNavy;
+    }
+    .overlay {
+      background-color: $brightBlue;
+    }
+  }
+
+  &.physician {
+
+    a.button {
+      // display: none;
+      background-color: $darkNavy;
+    }
+    .overlay {
+      background-color: $brightBlue;
+    }
+  }
+
+  &.halfwidth {
+    background-position: right center !important;
+    background-size: 50% auto !important;
+    max-width: 1260px;
+    margin: auto;
+  }
+  &.fullwidth {
+    background-position: center !important;
+    background-size: cover !important;
+  }
+  .hero-container {
+    height: 300px;
+    z-index: 2;
+    position: relative;
+    @include breakpoint(medium){
+      height: 410px;
+    }
+  }
+
+  .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    z-index: 1;
+    @include breakpoint(medium){
+      // min-width: 550px;
+      width: 55%;
+      max-width: 100%;
+      // max-width: 45%;
+    }
+    @include breakpoint(large){
+      // min-width: 550px;
+      width: 45%;
+      max-width: 100%;
+      // max-width: 45%;
+    }
+
+  }
+
+
+}

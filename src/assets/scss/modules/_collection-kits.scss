@@ -1,0 +1,302 @@
+section.collection-kits {
+
+  h2 {
+    font-family: "Montserrat", "helvetica neue", helvetica, arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .reorder {
+    .cell {
+
+      &:nth-of-type(1){
+        @include flex-order(2);
+      }
+      &:nth-of-type(2){
+        @include flex-order(1);
+      }
+      &:nth-of-type(3){
+        @include flex-order(3);
+      }
+      &:nth-of-type(4){
+        @include flex-order(4);
+      }
+      &:nth-of-type(5){
+        @include flex-order(5);
+      }
+      &:nth-of-type(6){
+        @include flex-order(6);
+      }
+
+      @include breakpoint(large){
+        &:nth-of-type(1){
+          @include flex-order(1);
+        }
+        &:nth-of-type(2){
+          @include flex-order(2);
+        }
+        &:nth-of-type(3){
+          @include flex-order(3);
+        }
+        &:nth-of-type(4){
+          @include flex-order(4);
+        }
+        &:nth-of-type(5){
+          @include flex-order(4);
+        }
+        &:nth-of-type(6){
+          @include flex-order(5);
+        }
+      }
+    }
+  }
+
+  .spacer {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 10px;
+    width: 100px;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  img.kit-image {
+    display: none;
+  }
+
+  &.show-images {
+    img.kit-image {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+
+  &.patient {
+    .show-for-physician {
+      display: none;
+    }
+    .show-for-patient {
+      display: inline-block !important;
+    }
+    .price-container {
+      margin-bottom: 10px;
+    }
+    .button-container {
+
+      @include breakpoint(large){
+        text-align: right !important;
+      }
+    }
+
+    .inner {
+      padding-bottom: 160px;
+      @include breakpoint(large){
+        padding-bottom: 160px;
+      }
+    }
+
+    .spacer {
+      background-color: $brightBlue;
+    }
+
+
+
+  }
+
+  &.physician {
+    .show-for-physician {
+      display: inline-block !important;
+    }
+    .show-for-patient {
+      display: none;
+    }
+    .price-container {
+      display: none;
+    }
+    .button {
+      margin: auto;
+    }
+
+    .inner {
+      padding-bottom: 90px;
+    }
+    .spacer {
+      background-color: $brightBlue;
+    }
+
+  }
+
+  .button {
+    padding: 0 1em;
+    min-width: 150px;
+  }
+
+  .cell.secondary {
+    .inner {
+
+      @include breakpoint(large){
+        padding-bottom: 100px;
+      }
+    }
+
+    img {
+      display: none;
+    }
+  }
+
+
+  .inner {
+    height: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+    // min-height: 640px;
+    // display: flex;
+
+
+    @include breakpoint(large){
+      max-width: 100%;
+    }
+
+    &.outline {
+      background-color: white !important;
+      .button {
+        color: white !important;
+      }
+      .test-details {
+        color: inherit !important;
+        margin-top: 5px;
+        padding-right: 20px;
+        @include breakpoint(medium){
+          padding-right: 0;
+        }
+        @include breakpoint(large){
+          padding-right: 20px;
+        }
+        a {
+          display: inline-block;
+          color: inherit !important;
+        }
+      }
+    }
+    &.fill {
+      color: white !important;
+
+      .button {
+        background-color: white !important;
+      }
+      .test-details {
+        margin-top: 5px;
+        padding-right: 20px;
+        @include breakpoint(medium){
+          padding-right: 0;
+        }
+        @include breakpoint(large){
+          padding-right: 20px;
+        }
+        a {
+          display: inline-block;
+          color: white !important;
+        }
+      }
+    }
+
+    .woo {
+      margin-top: 30px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 30px;
+      .price{
+        .has-tip {
+          font-size: 12px;
+          outline: none;
+          margin: 0;
+          padding: 0;
+        }
+
+      }
+      .woocommerce-Price-amount.amount {
+        color: inherit !important;
+        transform: translateY(-10px);
+      }
+      .button {
+        margin-bottom: 0;
+      }
+    }
+
+
+    .titlebar {
+      // height: 40px;
+      text-align: center;
+      font-size: 14px;
+      padding: 1em;
+
+    }
+    .content {
+      padding: 30px;
+
+      .headline {
+        font-size: 5vw;
+        display: block;
+        height: 2em;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 1em;
+        h2 {
+          font-family: "Lato", "helvetica neue", helvetica, arial, sans-serif;
+          text-transform: none;
+          letter-spacing: 0;
+        }
+        @include breakpoint(medium){
+          font-size: 25px;
+        }
+        @include breakpoint(large){
+          font-size: 2.25vw;
+        }
+        @include breakpoint(xlarge){
+          font-size: 30px;
+        }
+        // vertical-align: bottom;
+      }
+
+      .compatible {
+        font-size: 14px;
+        &.home {
+          margin-bottom: 50px;
+          @include breakpoint(large){
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      h2 {
+        font-weight: bold;
+        font-size: inherit;
+        // display: inline-block;
+        vertical-align: bottom;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        bottom: 0;
+
+      }
+
+      p {
+        font-size: 14px;
+      }
+
+    }
+  }
+
+
+}

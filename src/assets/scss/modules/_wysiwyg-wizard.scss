@@ -1,0 +1,32 @@
+section.wysiwyg_wizard {
+  // padding: 0 0.9375rem;
+  padding: 0;
+  div.alternate {
+    padding: 40px 0;
+    &:nth-of-type(even) {
+      background-color: $lightBlue;
+    }
+  }
+
+  &.patient {
+    a.button {
+      margin-top: 1em;
+      background-color: $brightBlue;
+      color: white !important;
+    }
+  }
+  &.physician {
+    a.button {
+      margin-top: 1em;
+      background-color: $brightBlue;
+      color: white !important;
+    }
+  }
+
+  table {
+    font-size: 12px;
+    @include breakpoint(large){
+      font-size: 16px;
+    }
+  }
+}

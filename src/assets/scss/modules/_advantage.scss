@@ -1,0 +1,49 @@
+section.advantage {
+  overflow: hidden;
+  .button {
+    margin-top: 30px;
+  }
+
+  &.patient {
+    .button {
+      background-color: $brightBlue;
+      color: white;
+    }
+  }
+
+  &.physician {
+    .button {
+      background-color: $brightBlue;
+      color: white;
+    }
+  }
+
+  p {
+    max-width: 700px;
+  }
+
+  .star {
+    position: relative;
+    height: 100%;
+    text-align: center;
+
+    img {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      width: 200px;
+      height: auto;
+      max-width: 200px;
+      // transform: translateY(160%) ;
+      opacity: 0.1;
+      @include breakpoint(medium){
+        // transform: translateY(0) translateX(-200px);
+        width: 300px;
+        max-width: 300px;
+        top: 0;
+        right: 0;
+        opacity: 1;
+      }
+    }
+  }
+}

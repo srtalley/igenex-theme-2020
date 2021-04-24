@@ -1,0 +1,352 @@
+[02-Jan-2021 11:10:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php on line 5
+[02-Jan-2021 11:10:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/footer.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/footer.php on line 10
+[02-Jan-2021 11:10:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function IGeneX\Theme\WooCommerce\add_action() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php:14
+Stack trace:
+#0 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php(541): IGeneX\Theme\WooCommerce\Checkout->__construct()
+#1 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/functions.php(2): require_once('/home1/igenex/p...')
+#2 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php on line 14
+[02-Jan-2021 11:10:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_redirect() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php on line 1
+[02-Jan-2021 11:10:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/header.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/header.php on line 20
+[02-Jan-2021 11:10:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function home_url() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/searchform.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/searchform.php on line 10
+[02-Jan-2021 11:10:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php on line 13
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php on line 5
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function dynamic_sidebar() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/sidebar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/sidebar.php on line 13
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php on line 5
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php on line 5
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function IGeneX\Theme\WooCommerce\add_action() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php:14
+Stack trace:
+#0 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php(541): IGeneX\Theme\WooCommerce\Checkout->__construct()
+#1 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/functions.php(2): require_once('/home1/igenex/p...')
+#2 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php on line 14
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_redirect() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php on line 1
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php on line 5
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php on line 13
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php on line 9
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php on line 5
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php on line 18
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php on line 5
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php on line 5
+[02-Jan-2021 11:10:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function IGeneX\Theme\WooCommerce\add_action() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php:14
+Stack trace:
+#0 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php(541): IGeneX\Theme\WooCommerce\Checkout->__construct()
+#1 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/functions.php(2): require_once('/home1/igenex/p...')
+#2 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php on line 14
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_redirect() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php on line 1
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php on line 5
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php on line 13
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php on line 9
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php on line 5
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php on line 18
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php on line 5
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php on line 5
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function IGeneX\Theme\WooCommerce\add_action() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php:14
+Stack trace:
+#0 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php(541): IGeneX\Theme\WooCommerce\Checkout->__construct()
+#1 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/functions.php(2): require_once('/home1/igenex/p...')
+#2 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php on line 14
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php on line 11
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_redirect() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php on line 1
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php on line 5
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php on line 13
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php on line 9
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php on line 18
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php on line 5
+[02-Jan-2021 11:10:18 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php on line 5
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php on line 5
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function IGeneX\Theme\WooCommerce\add_action() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php:14
+Stack trace:
+#0 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php(541): IGeneX\Theme\WooCommerce\Checkout->__construct()
+#1 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/functions.php(2): require_once('/home1/igenex/p...')
+#2 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php on line 14
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php on line 11
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_redirect() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php on line 1
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php on line 5
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php on line 13
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php on line 9
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php on line 18
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php on line 5
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php on line 5
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php on line 5
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function IGeneX\Theme\WooCommerce\add_action() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php:14
+Stack trace:
+#0 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php(541): IGeneX\Theme\WooCommerce\Checkout->__construct()
+#1 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/functions.php(2): require_once('/home1/igenex/p...')
+#2 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php on line 14
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php on line 11
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_redirect() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php on line 1
+[02-Jan-2021 11:10:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php on line 5
+[02-Jan-2021 11:10:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php on line 13
+[02-Jan-2021 11:10:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php on line 9
+[02-Jan-2021 11:10:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php on line 18
+[02-Jan-2021 11:10:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php on line 5
+[02-Jan-2021 11:10:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php on line 5
+[02-Jan-2021 11:10:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php on line 11
+[02-Jan-2021 11:10:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php on line 5
+[02-Jan-2021 11:10:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php on line 9
+[02-Jan-2021 11:10:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php on line 18
+[02-Jan-2021 11:10:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php on line 11
+[02-Jan-2021 11:10:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php on line 11
+[25-Jan-2021 14:51:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/404.php on line 5
+[25-Jan-2021 14:51:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function the_field() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/footer.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/footer.php on line 10
+[25-Jan-2021 14:51:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function IGeneX\Theme\WooCommerce\add_action() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php:14
+Stack trace:
+#0 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php(541): IGeneX\Theme\WooCommerce\Checkout->__construct()
+#1 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/functions (Jan 2, 2021 at 9-06-39 PM).php(2): require_once('/home1/igenex/p...')
+#2 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php on line 14
+[25-Jan-2021 14:51:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function IGeneX\Theme\WooCommerce\add_action() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php:14
+Stack trace:
+#0 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php(541): IGeneX\Theme\WooCommerce\Checkout->__construct()
+#1 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/functions (Nov 7, 2020 at 8-17-41 PM).php(2): require_once('/home1/igenex/p...')
+#2 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php on line 14
+[25-Jan-2021 14:51:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function IGeneX\Theme\WooCommerce\add_action() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php:14
+Stack trace:
+#0 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php(541): IGeneX\Theme\WooCommerce\Checkout->__construct()
+#1 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/functions (Nov 14, 2020 at 9-55-57 PM).php(2): require_once('/home1/igenex/p...')
+#2 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php on line 14
+[25-Jan-2021 14:51:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function IGeneX\Theme\WooCommerce\add_action() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php:14
+Stack trace:
+#0 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php(541): IGeneX\Theme\WooCommerce\Checkout->__construct()
+#1 /home1/igenex/public_html/wp-content/themes/igenex_mainsite/functions.php(2): require_once('/home1/igenex/p...')
+#2 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/includes/class-woocommerce-checkout.php on line 14
+[25-Jan-2021 14:51:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/header.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/header.php on line 20
+[25-Jan-2021 14:51:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_redirect() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php:1
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/image.php on line 1
+[25-Jan-2021 14:51:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page-blood-draw-site-locator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page-blood-draw-site-locator.php on line 13
+[25-Jan-2021 14:51:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/page.php on line 13
+[25-Jan-2021 14:51:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function home_url() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/searchform.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/searchform.php on line 10
+[25-Jan-2021 14:51:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function dynamic_sidebar() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/sidebar.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/sidebar.php on line 13
+[25-Jan-2021 14:51:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-faq.php on line 5
+[25-Jan-2021 14:51:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-press-release.php on line 5
+[25-Jan-2021 14:51:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php:5
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single-success-story.php on line 5
+[25-Jan-2021 14:51:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/single.php on line 9
+[25-Jan-2021 14:51:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories.php on line 18
+[25-Jan-2021 14:51:46 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories copy.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/taxonomy-faq_categories copy.php on line 18
+[25-Jan-2021 14:51:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/igenex/public_html/wp-content/themes/igenex_mainsite/woocommerce.php on line 11

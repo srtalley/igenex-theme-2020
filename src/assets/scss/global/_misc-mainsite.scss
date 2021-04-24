@@ -1,0 +1,635 @@
+body.elementor-editor-active .elementor.elementor-edit-mode .elementor-element.elementor-section {
+  z-index: 999999999;
+}
+html {
+  font-size: 100% !important;
+}
+body {
+  font-family: "Lato", "helvetica neue", helvetica, arial, sans-serif;
+}
+h1 {
+  font-family: "Lato", "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.05em;
+  padding-bottom: 0.5em;
+  display: block;
+  @include breakpoint(medium){
+    font-size: 48px;
+  }
+}
+
+h2 {
+  font-family: "Lato", "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2em;
+  padding-bottom: 1.5em;
+  display: inline-block;
+  position: relative;
+
+  @include breakpoint(medium){
+    font-size: 36px;
+  }
+
+  &.bar {
+    position: relative;
+    padding-top: 1em;
+    &:after {
+      content: '';
+      width: 112px;
+      height: 12px;
+      border-radius: 6px;
+      background-color: $brightBlue;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+}
+
+h3 {
+  font-family: "Lato", "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.05em;
+  padding-bottom: 0.5em;
+  display: inline-block;
+}
+
+h4, h5, h6 {
+  font-family: "Lato", "helvetica neue", helvetica, arial, sans-serif;
+}
+
+a {
+  background-color: transparent;
+}
+
+a.anchor, .accordion-content::before {
+
+    display: block;
+    position: relative;
+    visibility: hidden;
+    @include breakpoint(large){
+      top: -144px;
+    }
+}
+
+.woocommerce.mainsite a.button,
+a.button {
+  font-family: "Montserrat", "helvetica neue", helvetica, arial, sans-serif !important;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  background-color: $brightBlue;
+  height: 64px;
+  border-radius: 32px;
+  line-height: 64px;
+  padding: 0 3em;
+  position: relative;
+  display: inline-block;
+  text-transform:uppercase;
+
+  &:hover {
+    background-color: darken($brightBlue, 10%)
+  }
+}
+
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+section {
+  color: $darkGrey;
+
+  @include breakpoint(small){
+    padding: 0 0.9375rem;
+  }
+
+
+  &.patient {
+    .button {
+      background-color: $brightBlue;
+      &:hover {
+        background-color: darken($brightBlue, 10%)
+      }
+    }
+    a {
+      color: $brightBlue;
+    }
+    &.alternate {
+      &:nth-of-type(even){
+        background-color: $lightBlue;
+      }
+      &:nth-of-type(odd){
+        background-color: white;
+      }
+    }
+  }
+  &.physician {
+
+    .button {
+      background-color: $brightBlue;
+      &:hover {
+        background-color: darken($brightBlue, 10%)
+      }
+    }
+    a {
+      color: $brightBlue;
+    }
+    &.alternate {
+      &:nth-of-type(even){
+        background-color: $lightBlue;
+      }
+      &:nth-of-type(odd){
+        background-color: white;
+      }
+    }
+  }
+}
+section.elementor-element {
+  padding: inherit;
+  color: inherit;
+}
+.grid-container-fluid {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.grid-container-padded {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  @include breakpoint(medium){
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+body.patient {
+  section.navigation {
+    .top-menu {
+      li.patients {
+        display: none;
+      }
+      li.physicians {
+        display: block;
+      }
+    }
+    .subnav-container {
+      li.is-active:before {
+          background-color: green;
+      }
+    }
+  }
+}
+
+body.physician {
+  section.navigation {
+    .top-menu {
+      li.physicians {
+        display: none;
+      }
+      li.patients {
+        display: block;
+      }
+    }
+  }
+  .subnav-container {
+    li.is-active:before {
+        background-color: blue;
+    }
+  }
+}
+
+div.igenex_nav {
+  
+  &.mobile {
+    @include breakpoint(large){
+      display: none;
+    }
+
+    .logo {
+      img{
+        width: 120px;
+      }
+    }
+
+    .cell {
+      &.patient {
+        circle {
+          fill: $brightBlue !important;
+        }
+      }
+      &.physician {
+        circle {
+          fill: $red;
+        }
+
+      }
+    }
+
+    .drawer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #51585B;
+      z-index: 999999999;
+      transform: translateX(-100%);
+      transition: transform .2s;
+      transition-delay: 0.1s;
+      &.active {
+        transform: translateX(0);
+      }
+
+      &.patient {
+        .patient-nav {
+          display: block;
+        }
+        .physician-nav {
+          display: none;
+        }
+      }
+
+      &.physician {
+        .physician-nav {
+          display: block;
+        }
+        .patient-nav {
+          display: none;
+        }
+      }
+
+      .patient-nav {
+        height: 100%;
+        // display: none;
+      }
+
+      .physician-nav {
+        height: 100%;
+      }
+
+      .header {
+        height: 60px;
+      }
+
+      a {
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+
+    .top-nav {
+      overflow: hidden;
+    }
+    .mobile-top-nav {
+      height: 60px;
+    }
+
+    .nav-select {
+      height: 40px;
+      overflow: hidden;
+
+      a.padded {
+        // padding: 0 2em;
+        text-align: center;
+        display: block;
+        font-size: 12px;
+
+      }
+      &.physician {
+        a.patient {
+          // display: none;
+          font-size: 12px;
+          background-color: $darkNavy;
+          color: white !important;
+          &:hover {
+            background-color: $indigo;
+          }
+        }
+        a.physician {
+          display: block;
+          font-size: 12px;
+        }
+      }
+      &.patient {
+        a.patient {
+          display: block;
+          font-size: 12px;
+        }
+        a.physician {
+          // display: none;
+          font-size: 12px;
+          background-color: $darkNavy !important;
+          color: white !important;
+          &:hover {
+            background-color: $indigo;
+          }
+        }
+      }
+
+      a {
+        color: $darkGrey;
+        font-weight: bold;
+
+
+        &.solid {
+          line-height: 40px;
+          display: block;
+          color: white;
+
+          &.patient {
+            // background-color: $darkNavy;
+            color: $darkNavy;
+            font-size: 12px;
+          }
+          &.physician {
+            // background-color: $darkGreen;
+            color: $darkNavy;
+            font-size: 12px;
+          }
+        }
+      }
+
+    }
+  }
+  &.desktop {
+    display: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Montserrat", "helvetica neue", helvetica, arial, sans-serif;
+    color: $darkGrey;
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.1);
+
+    @include breakpoint(large){
+      display: block;
+      position: fixed;
+      z-index: 999999999;
+      width: 100%;
+      height: 100px;
+      top: 0;
+      background-color: white;
+    }
+
+    .top-nav {
+
+      max-width: 1400px;
+
+      .main-logo {
+        @media (max-width: 1300px) {
+          max-width: 150px;
+        }
+        @media (max-width: 1100px) {
+          max-width: 100px;
+        }
+      }
+      .cell {
+        &.patient {
+          circle {
+            fill: $brightBlue !important;
+          }
+          a.cart-link {
+            margin-left: 22px;
+            width: 50px;
+            display: block;
+            transition: all 0.4s ease-in-out;
+            @media(max-width: 1230px) {
+              margin-left: 14px;
+            }
+            svg.cart-icon {
+              .cart-fill {
+                fill: $brightBlue;
+              }
+            }
+            &:hover {
+              svg.cart-icon {
+                .cart-fill {
+                  fill: #64CCEF;
+                }
+              }
+            }
+          }
+        }
+        &.physician {
+          circle {
+            fill: $brightBlue !important;
+          }
+          a.cart-link {
+            margin-left: 15px;
+            &:hover {
+              svg.cart-icon {
+                .cart-fill {
+                  fill: $brightBlue;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .extra {
+        a {
+          color: red;
+        }
+        &.patient {
+          a {
+            color: $darkGrey;
+            &:hover {
+              color: $brightBlue;
+            }
+          }
+
+        }
+        &.physician {
+          a {
+            color: $darkGrey;
+            &:hover {
+              color: $brightBlue;
+            }
+          }
+
+        }
+      }
+
+
+      a.padded {
+        padding: 0 2em;
+        display: inline-block;
+      }
+      &.patient {
+        a.patient {
+          display: none;
+        }
+        a.physician {
+          display: inline-block;
+        }
+      }
+      &.physician {
+        a.patient {
+          display: inline-block;
+        }
+        a.physician {
+          display: none;
+        }
+      }
+    }
+
+    a {
+      color: $darkGrey;
+      font-weight: 400;
+
+      &.solid {
+        background: red;
+        line-height: 1.2em;
+        display: inline-block;
+        color: white;
+
+
+        &.patient {
+          background-color: $darkNavy;
+          transition: all .2s;
+          border-radius: 10px;
+          padding: 15px 30px;
+          display: block;
+          &:hover {
+            background-color: $indigo;
+          }
+        }
+        &.physician {
+          background-color: $red;
+          transition: all .2s;
+          border-radius: 10px;
+          padding: 15px 30px;
+          display: block;
+          &:hover {
+            background-color: $darkNavy;
+          }
+        }
+      }
+    }
+
+
+    .patient-nav {
+      line-height: 60px;
+      display: none;
+      &.patient {
+        display: block;
+      }
+      &.physician {
+        display: none;
+      }
+    }
+
+    .physician-nav {
+      line-height: 60px;
+      display: none;
+      &.patient {
+        display: none;
+      }
+      &.physician {
+        display: block;
+      }
+    }
+  }
+}
+
+body.order-a-test-kit {
+
+  section {
+
+    &.patient {
+      &.alternate {
+        &:nth-of-type(odd){
+          background-color: $lightBlue;
+        }
+        &:nth-of-type(even){
+          background-color: white !important;
+        }
+      }
+    }
+    &.physician {
+      &.alternate {
+        &:nth-of-type(odd){
+          background-color: $lightBlue;
+        }
+        &:nth-of-type(even){
+          background-color: white !important;
+        }
+      }
+    }
+  }
+}
+body.admin-bar {
+  .igenex_nav {
+    top: 32px;
+  }
+}
+.menu-patient .sub-menu .sub-menu {
+  left: 100%;
+  bottom: 50px; 
+  display: none !important;
+}
+.menu-patient .sub-menu li.menu-item-has-children:hover .sub-menu {
+  display: block !important;
+}
+/* Misc April 2019 */
+.licenses-certifications {
+  .licensing {
+    h2 {
+      text-transform:uppercase;
+      font-family:'Montserrat', helvetica, sans-serif;
+    }
+  }
+  .hero-container h1 {
+    font-size: 34px !important;
+    line-height: 1.2em;
+    @media(max-width: 480px) {
+      font-size: 24px !important;
+    }
+  }
+}
+
+.store_locator_container {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding-bottom: 1em;
+  @media(min-width: 1024px) {
+    padding-top: 4em;
+  }
+}
+
+.single-store_locator .sidebar {
+  display: none;
+}
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.embed-responsive-16by9 {
+  padding-bottom: 56.25%;
+}
+
+#wpadminbar {
+  z-index: 9999999999;
+}

@@ -1,0 +1,79 @@
+.sib-hide-loader-icon {
+    display: none;
+}
+.sib-form-message-panel {
+    margin: 0 0 1.25rem;
+    width: 100%;
+    padding: 0.4375rem;
+    border: 1px solid;
+    display: none;
+}
+.sib-form-message-panel--active {
+    display: inline-block;
+}
+.sib-form-message-panel__text {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0.5rem;
+}
+.sib-form-message-panel__text .sib-icon {
+    contain: strict;
+    display: inline-block;
+    fill: currentColor;
+}
+.sib-form-message-panel__text .sib-notification__icon {
+    height: 1.5em;
+    width: 1.5em;
+    flex-shrink: 0;
+    margin-right: calc(1rem - 1px);
+}
+.input--hidden {
+    display: none !important;
+}
+.sib-form-block__button {
+    display: inline-block;
+    padding: 8px 18px;
+    border: none;
+    overflow-wrap: break-word;
+    max-width: 100%;
+} 
+.sib-form-block__button-disabled {
+    opacity: 0.5;
+}
+.sib-form-block__button-with-loader {
+    min-height: 40px;
+    line-height: 23px;
+}
+.sib-form .clickable__icon {
+    height: 1.5rem;
+    vertical-align: bottom;
+    width: 1.5rem;
+}
+.sib-form .clickable__icon:not(.sib-icon_standalone) {
+    margin-right: calc(0.7002rem - 1px);
+}
+.sib-form .progress-indicator__icon {
+    -webkit-animation: indicator-spin 1.3s cubic-bezier(0.46, 0.35, 0.39, 0.85) infinite;
+    animation: indicator-spin 1.3s cubic-bezier(0.46, 0.35, 0.39, 0.85) infinite;
+}
+@-webkit-keyframes indicator-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}
+@keyframes indicator-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+    }
+}

@@ -1,0 +1,16 @@
+div.titlebar-module {
+  color: white;
+  padding: 0.9375rem;
+
+  &.patient {
+    background-color: $brightBlue;
+  }
+  &.physician {
+    background-color: $brightBlue;
+  }
+
+  h2 {
+    margin: 0;
+    padding: 0;
+  }
+}

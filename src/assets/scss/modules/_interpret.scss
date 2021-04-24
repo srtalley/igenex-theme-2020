@@ -1,0 +1,59 @@
+section.interpret {
+  &.patient {
+    .accordion-title {
+      background-color: $brightBlue;
+    }
+    h3 {
+      color: $brightBlue
+    }
+  }
+
+  &.physician {
+    .accordion-title {
+      background-color: $brightBlue;
+    }
+    h3 {
+      color: $brightBlue;
+    }
+  }
+
+  .grid-x {
+    &.alternate {
+      &:nth-child(odd){
+        background-color: $lightBlue;
+      }
+    }
+  }
+
+  .accordion-content {
+    padding: 0;
+    outline: none;
+  }
+  .accordion-title {
+    color: white;
+    font-size: 14px;
+    @include breakpoint(medium){
+      font-size: 17px;
+    }
+    @include breakpoint(large){
+      font-size: 20px;
+    }
+  }
+
+  .alternate {
+    &:nth-child(odd){
+      background-color: white !important;
+    }
+    &:nth-child(even){
+      background-color: lighten($lightBlue,1%);
+    }
+  }
+
+  h3 {
+    margin: 0.5em 0;
+    padding: 0;
+  }
+
+
+
+}

@@ -1,0 +1,155 @@
+// section.how-it-works {
+//   // text-align: center;
+//
+//   figure {
+//     text-align: center;
+//
+//     &.icon {
+//       img {
+//         max-width: 100px;
+//         max-height: 100px;
+//         margin-bottom: 20px;
+//       }
+//       small {
+//         max-width: 80%;
+//         margin: auto;
+//         display: block;
+//       }
+//     }
+//   }
+//
+//   a.button {
+//     margin-bottom: 0;
+//     margin-top: 30px;
+//   }
+// }
+ 
+// Old items - can probably be removed April 2019
+section.icon-grid {
+
+  .pod {
+    text-align: center;
+    padding-bottom: 30px;
+    img {
+      display: block;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      color: $darkNavy;
+    }
+
+    p {
+      margin: 0 auto;
+      font-size: 14px;
+      font-family: "helvetica neue";
+      max-width: 300px;
+    }
+
+    .details {
+      margin-top: 10px;
+      font-size: 12px;
+      // font-style: italic;
+      a {
+        font-size: 15px;
+        font-family: "helvetica neue";
+        font-weight: bold;
+        font-style: normal;
+        margin-bottom: 10px;
+        display: inline-block;
+      }
+    }
+  }
+
+  &.patient {
+    a {
+      color: $brightBlue;
+    }
+  }
+
+  &.physician {
+    a {
+      color: $brightBlue;
+    }
+  }
+}
+
+// New items for ACF module
+.how-it-works .grid-container-padded {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+.how-it-works .hiw-title {
+  p {
+    font-family: "Montserrat", "helvetica neue", helvetica, arial, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: -1px;
+    strong {
+      font-weight: 800;
+    }
+  }
+
+}
+.how-it-works .steps-grid {
+  h2 {
+    font-family: "Lato", "helvetica neue", helvetica, arial, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2em;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+  }
+  p {
+    font-family: "Montserrat", "helvetica neue", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  img { margin: 0 auto; }
+  img.hiw-mobile {
+    display: none;
+    @media (max-width: 767px) {
+      display: block;
+    }
+  }
+  img.hiw-desktop {
+    @media (max-width: 767px) {
+      display: none;
+    }
+  }
+  .hiw-step {
+    margin-bottom: 10px;
+  }
+  .hiw-inner {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .hiw-step1 {
+    @media (min-width: 768px) {
+      width: 28.15%;
+      .hiw-inner {
+        padding-left: 20%;
+      }
+    }
+  }
+  .hiw-step2 {
+    @media (min-width: 768px) {
+      width: 21.5%;
+    }
+  }
+  .hiw-step3 {
+    @media (min-width: 768px) {
+      width: 21.65%
+    }
+  }
+  .hiw-step4 {
+    @media (min-width: 768px) {
+      width: 28.7%;
+      .hiw-inner {
+        padding-right: 20%;
+      }
+    }
+
+  }
+}

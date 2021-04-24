@@ -1,0 +1,120 @@
+.success-stories-page {
+    .page-content {
+        margin: 40px auto;
+        max-width: 1110px;
+        p {
+            font-size: 1.2em;
+            line-height: 1.5em;
+            @include breakpoint(small only) {
+                font-size: 1.1em;
+                line-height: 1.4em;
+            }
+        }
+    }
+    .success-stories-grid {
+        .success-article {
+            position: relative;
+            max-width: 1080px;
+            margin: 0 auto;
+            article {
+                margin-bottom: 50px;
+                position: relative;
+                .entry-title {
+                    font-size: 32px;
+                    display: block;
+                    padding-bottom: 0;
+                    margin-bottom: 10px;
+                    @include breakpoint(medium only) {
+                        font-size: 26px;
+                    }
+                    @include breakpoint(small only) {
+                        font-size: 26px;
+                    }
+                    a {
+                        color: #3f474a;
+                    }
+                }
+                .headshot {
+                    text-align: center;
+                    justify-content: center;
+                }
+                .entry-content {
+                    margin-top: 53px;
+                    @include breakpoint(small only) {
+                        margin-top: 10px;
+                    }
+                    p {
+                        font-size: 1.2em;
+                        line-height: 1.5em;
+                        @include breakpoint(small only) {
+                            font-size: 1.1em;
+                            line-height: 1.4em;
+                        }
+                    }
+                    .entry-link {
+                        text-transform: uppercase;
+                        font-size: 1.2em;
+                        line-height: 1.5em;
+                        @include breakpoint(small only) {
+                            font-size: 1.1em;
+                            line-height: 1.4em;
+                        }
+                    }
+                }
+            }
+            &:after {
+                content: '';
+                width: 100%;
+                height: 1px;
+                border-bottom: 2px solid #e8e8e8;
+                position: absolute;
+                bottom: 15px;
+            }
+            &:last-child:after {
+                display:none;
+            }
+            
+
+        }
+        .pagination {
+            display: flex;
+
+        }
+    }
+}
+.single-success-story {
+    h2 a {
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+    header {
+        margin-bottom: 20px;
+    }
+    .sidebar-inner {
+        padding-bottom: 0;
+        position: sticky;
+        top: 170px;
+        h3 {
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+        .related-stories-icons {
+            padding: 0 5px;
+        }
+        .related-stories-icons .cell {
+            padding: 0 5px 10px;
+        }
+        a {
+            display: block;
+            overflow:hidden;
+            img {
+                transition: all 0.4s ease-out;
+            }
+            &:hover img {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+section.faqs.faqs_v2 {
+
+    padding: 0;
+
+    .faq-list {
+        list-style-type: none;
+        margin-left: 0;
+        margin-bottom: 0;
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+
+}
+
+.single-faq {
+    .igenex-breadcrumb {
+        margin-bottom: 20px;
+    }
+    .main-grid .main-content {
+        @include breakpoint(medium) {
+            width: 100% !important;
+        }
+        margin-bottom: 60px;
+        article {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    }
+}  
+
+
+.tax-faq_categories {
+
+    .igenex-breadcrumb {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .main-grid .main-content {
+        @include breakpoint(medium) {
+            width: 100% !important;
+        }
+        margin-bottom: 60px;
+        header,
+        .faq-category-titles {
+            // max-width: 900px;
+            margin: 0 auto;
+        }
+        .accordion-content p:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -1,0 +1,195 @@
+section.accordion-wysiwyg {
+    h2 {
+        font-family: "Montserrat", "helvetica neue", helvetica, arial, sans-serif;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        margin: 0;
+        padding: 0;
+        display: block;
+        margin-bottom: 16px;
+    }
+  &.patient {
+    .accordion-title {
+      background-color: $brightBlue;
+    }
+    h3 {
+      color: $brightBlue
+    }
+  }
+  .grid-x {
+    &.alternate {
+      &:nth-child(odd){
+        background-color: $lightBlue;
+      }
+    }
+  }
+  .spacer {
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 10px;
+        width: 100px;
+        display: inline-block;
+        border-radius: 5px;
+        background-color: #19ABE2;    
+    }
+  .accordion-content {
+    padding: 0;
+    outline: none;
+  }
+  .accordion-title {
+    color: white;
+    font-size: 14px;
+    @include breakpoint(medium){
+      font-size: 17px;
+    }
+    @include breakpoint(large){
+      font-size: 20px;
+    }
+  }
+
+  .alternate {
+    &:nth-child(odd){
+      background-color: white !important;
+    }
+    &:nth-child(even){
+      background-color: lighten($lightBlue,1%);
+    }
+  }
+
+  h3 {
+    margin: 0.5em 0;
+    padding: 0;
+  }
+  
+  table {
+      width: 100% !important;
+      font-size: 0.8em;
+      margin-bottom: 0;
+      tr {
+          th {
+                // width: auto !important;
+              background-color: #3e3e3e;
+              color: #fff;
+
+          }
+          td {
+            // width: auto !important;
+            border-bottom: 1px solid #ffffff !important;
+            border-left: 1px solid #ffffff;
+            background-color: #e2e2e2;
+          }
+
+      }
+      @media (max-width: 767px) {
+          display: block;
+          overflow-y: scroll;
+          th, td { 
+            min-width: 120px;
+          }
+      }
+
+  }
+  .disease-tables {
+    table {
+      td:nth-child(even) {
+        background-color: #f5f5f5;
+      }
+      td:nth-child(odd){
+        background-color: #e8e8e8;
+      }
+      td.light {
+        background-color: #f5f5f5 !important;
+      }
+      td.dark {
+        background-color: #e8e8e8 !important;
+      }
+    }
+    &.blue-shade {
+      td:nth-child(even){
+        background-color: #B9D9EB;
+      }
+      td.light {
+        background-color: #B9D9EB !important;
+      }
+      td:nth-child(odd) {
+        background-color: #92C1E9;
+      }
+      td.dark {
+        background-color: #92C1E9 !important;
+      }
+    }
+    &.green-shade {
+      td:nth-child(even){
+        background-color: #E5F0DB;
+      }
+      td.light {
+        background-color: #E5F0DB !important;
+      }
+      td:nth-child(odd) {
+        background-color: #CADFB8;
+      }
+      td.dark {
+        background-color: #CADFB8 !important;
+      }
+    }
+    &.red-shade {
+      td:nth-child(even) {
+        background-color: #F7CED7;
+      }
+      td.light {
+        background-color: #F7CED7 !important;
+      }
+      td:nth-child(odd){
+        background-color: #F9B5C4;
+      }
+      td.dark {
+        background-color: #F9B5C4 !important;
+      }
+    }
+    &.purple-shade {
+      td:nth-child(even) {
+        background-color: #D7C6E6;
+      }
+      td.light {
+        background-color: #D7C6E6 !important;
+      }
+      td:nth-child(odd){
+        background-color: #C5B4E3;
+      }
+      td.dark {
+        background-color: #C5B4E3 !important;
+      }
+    }
+    &.orange-shade {
+        td:nth-child(even) {
+          background-color: #FFCBA4;
+        }
+        td.light {
+          background-color: #FFCBA4 !important;
+        }
+        td:nth-child(odd){
+          background-color: #F7BB7D;
+        }
+        td.dark {
+          background-color: #F7BB7D !important;
+        }
+    }
+    &.yellow-shade {
+      td:nth-child(even) {
+        background-color: #ffedb7;
+      }
+      td.light {
+        background-color: #ffedb7 !important;
+      }
+      td:nth-child(odd){
+        background-color: #FBDB65;
+      }
+      td.dark {
+        background-color: #FBDB65 !important;
+      }
+    }
+  }
+
+
+}

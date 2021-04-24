@@ -1,0 +1,79 @@
+section.press-module {
+  .grid-container-padded {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  @include breakpoint(small){
+    padding: 0 0.9375rem;
+  }
+  &.patient {
+    .inner {
+      background-color: $brightBlue;
+    }
+  }
+  &.physician {
+    .inner {
+      background-color: $brightBlue;
+    }
+  }
+
+  h2.press-secondary-title  {
+    padding-bottom: 0.75em;
+    font-size: 24px;
+  }
+
+  .inner {
+
+    position: relative;
+    padding-bottom: 0;
+
+
+    @include breakpoint(large){
+      padding-bottom: 100%;
+    }
+  }
+
+  .date {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+
+  .description {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2em;
+    max-width: 500px;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    filter: grayscale(20%);
+    opacity: 0.2;
+  }
+
+  .content {
+
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+    padding: 40px;
+    color: white;
+    position: relative;
+
+    @include breakpoint(large){
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

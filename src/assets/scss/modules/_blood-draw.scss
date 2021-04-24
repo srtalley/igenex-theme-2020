@@ -1,0 +1,65 @@
+section.blood-draw {
+  text-align: center;
+  @include breakpoint(medium){
+    text-align: left;
+  }
+  img {
+    // max-width: 80%;
+    padding: 20px 0;
+    height: auto;
+
+
+    @include breakpoint(medium) {
+      max-width: 80%;
+      height: auto;
+
+    }
+  }
+
+  h2 {
+    position: relative;
+    padding-top: 1em;
+    display: inline-block;
+    @include breakpoint(medium){
+
+    }
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 12px;
+      background-color: $brightBlue;
+      border-radius: 6px;
+    }
+  }
+
+  &.physician {
+    h2 {
+      &:before {
+        content: '';
+        background-color: $brightBlue;
+      }
+    }
+
+  }
+}
+.page-blood-draw-site-locator .wpml_above_map form#store_locator_search_form {
+  @media(min-width: 768px){
+    display: flex;
+    justify-content: stretch;
+  }
+}
+.page-blood-draw-site-locator .wpml_above_map .store_locator_field {
+  flex: 1 1 auto;
+}
+.page-blood-draw-site-locator .wpml_above_map .store_locator_field:first-of-type {
+   display: none;
+}
+.page-blood-draw-site-locator .wpml_above_map .store_locator_field:last-of-type {
+  margin-right: 0;
+}
+.page-blood-draw-site-locator #store_locator_search_form select#store_locatore_search_radius {
+  padding-right: 22px !important;
+}

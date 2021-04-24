@@ -1,0 +1,99 @@
+.single {
+   .main-grid {
+     .main-content {
+       .article-container {
+         .date {
+           margin:15px 0px;
+           display: inline-block;
+           span {
+             color: $white;
+             padding:20px;
+             -webkit-border-radius:15px;
+             -moz-border-radius:15px;
+             border-radius:15px;
+             font-style: italic;
+           }
+         }
+         h1.post-title {
+           font-family:"Helvetica Neue", sans-serif;
+           font-weight:bold;
+           color: $neutral_darkest;
+           font-size:48px;
+           padding:15px 0px;
+           @include breakpoint (small only) {
+             font-size: 24px;
+           }
+
+         }
+         h2.excerpt {
+           font-family:"Helvetica Neue", sans-serif;
+           font-style: italic;
+           font-weight:bold;
+           font-size:24px;
+           padding-bottom:20px;
+
+           @include breakpoint (small only) {
+             font-size: 18px;
+           }
+         }
+         .post-content {
+           font-family:"Helvetica Neue", sans-serif;
+           color: $neutral_darkest;
+           font-size:14px;
+          //  border-bottom:3px $neutral_lightest solid;
+          //  margin-bottom:20px;
+           padding-bottom:14px;
+         }
+       }
+       .navigation {
+         margin-bottom: 30px;
+         .nav-links{
+
+           a {
+             .article-nav-header {
+               color: $neutral_darkest;
+               font-family:"Helvetica Neue", sans-serif;
+               font-weight:bold;
+               font-size: 16px;
+               svg {
+                 margin:0 10px;
+               }
+             }
+             .article-nav-title {
+               color: $teal;
+               font-family:"Helvetica Neue", sans-serif;
+               font-weight:bold;
+               font-size: 16px;
+             }
+             .article-nav-date {
+               color: $neutral_dark;
+               font-family:"Helvetica Neue", sans-serif;
+               font-style: italic;
+               font-size: 11px;
+             }
+             .nav-text {
+                color: $neutral_darkest;
+                font-family:"Helvetica Neue", sans-serif;
+                font-weight:bold;
+                font-size: 16px;
+             }
+             .fa {
+                color: #f8ae17;
+             }
+             .post-title {
+                color: #f8ae17;
+                margin-top: 8px;
+             }
+             .post-date {
+                color: #a6a6a6;
+             }
+           }
+           a:hover * {
+            color: $teal;
+           }
+         }
+       }
+
+     }
+   }
+ }

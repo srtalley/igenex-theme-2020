@@ -1,0 +1,28 @@
+section.licensing {
+  text-align: center;
+  color: white;
+
+  h2 {
+    font-family: "Montserrat", "helvetica neue", helvetica, arial, sans-serif;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: white !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  h4 {
+    font-style: italic;
+    margin-bottom: 1em;
+  }
+
+  a.state {
+    opacity: 0.8;
+    transition: all 0.3s;
+    transform: scale(.9);
+    display: block;
+    &:hover {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
